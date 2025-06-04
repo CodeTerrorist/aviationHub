@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cors-anywhere": "^0.4.4",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.1"
+  }
+}
