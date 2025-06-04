@@ -12,7 +12,7 @@ This is a React web application that fetches and displays METAR data and include
 1. **Clone or download this repository.**
 2. **Open a terminal in the project folder:**
    ```
-   cd meu-projeto
+   cd aviationHub
    ```
 3. **Install dependencies:**
    ```
