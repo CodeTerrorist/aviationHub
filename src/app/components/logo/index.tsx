@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import LogoCessna from "../../../imagenss/logo23.jpg";
 import tw from "twin.macro";
 
 const LogoContainer = styled.div`
@@ -32,15 +31,13 @@ const Image = styled.div`
     }
 `;
 
-export function Logo(){
-
-    return(
+export function Logo() {
+    return (
         <LogoContainer>
             <Image>
-                <img src={LogoCessna}/>
+                <img src="/imagens/logo23.jpg" alt="Logo" />
             </Image>
-        <TextoLogo>Aerodrómo.</TextoLogo>
+            <TextoLogo>Aerodrómo.</TextoLogo>
         </LogoContainer>
-    )
-
+    );
 }

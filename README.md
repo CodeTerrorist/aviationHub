@@ -37,6 +37,18 @@ yarn start
 
 The app will open at [http://localhost:3000](http://localhost:3000).
 
+---
+
+## Important Notes
+
+- **METAR API Status:**  
+  The API used to fetch METAR data is currently **down**. As a result, the METAR lookup feature will not return live data until the API is restored.
+
+- **Database Provided:**  
+  This project includes a sample database file for demonstration and evaluation purposes, as it is part of a university project. You can find the database file in the project root or in the `db/` folder.
+
+---
+
 ## METAR Lookup Feature
 
 To fetch METAR data, the app uses a CORS proxy.  

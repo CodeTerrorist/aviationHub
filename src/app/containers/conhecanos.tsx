@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import ce172 from "../../imagenss/ce172nobg-removebg-preview-removebg-preview.png";
 
 const ContainerSobreNos = styled.div`
   ${tw`
@@ -93,7 +92,7 @@ export function Conhecanos() {
   return (
     <ContainerSobreNos>
       <ContainerAviao>
-        <img src={ce172} alt="CE172" />
+        <img src="/imagens/ce172nobg-removebg-preview-removebg-preview.png" alt="CE172" />
       </ContainerAviao>
       <ContainerInformacao>
         <Titulo>Insira aqui um titulo</Titulo>

@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import Cessna172 from "../../../imagenss/ce172-removebg-preview.png";
-import SvgImg from "../../../imagenss/blob.svg";
 import { SCREENS } from "../../components/responsive";
 import { Botao } from "../../components/botoes";
 import { Link } from "react-router-dom";
@@ -191,11 +189,11 @@ export function SeccaoTopo(){
                 </Link>
                 </ContainerEsq>
                 <SvgContainer>
-                    <img src={SvgImg}></img>
+                    <img src="/imagens/blob.svg" alt="Blob" />
                 </SvgContainer>
 
                 <AviaoRender>
-                    <img src={Cessna172}></img>
+                    <img src="/imagens/ce172-removebg-preview.png" alt="Cessna 172" />
                 </AviaoRender>
             <ContainerDir>
 
